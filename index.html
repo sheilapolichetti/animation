@@ -5,14 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="Stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>CSS Animation</title>
   </head>
   <body>
-    <header>
-      <h1>20th B-day celebrations!</h1>
-    </header>
-    <section>
-      <h2>Friday 20th April (4-20 hehe)</h2>
-    </section>
+    <div class="container">
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+    </div>
+    <main class="screen">
+      <div class="header">
+        <header class="animate__animated animate__tada animate__infinite">
+          <h1>22th B-day celebrations!</h1>
+        </header>
+      </div>
+      <div class="row">
+        <section>
+          <h2>Wednesday 31st March</h2>
+          <p>
+            You are invited to my 22nd b-day celebration! The event is planned
+            at the restaurant TAK in Stockholm. Dinner reservation from 17:30
+            all until 22:00.<br />
+            The address is Brunkebergstorg 2-4 in Stockholm, dresscode is fancy
+            casual. Bring a +1! Please fill out the form below if you will be
+            coming or not and at what time.
+          </p>
+        </section>
+        <div class="justform">
+          <form action="">
+            <label for="name" class="label">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="name" class="label">Time of Arrival</label>
+            <input type="text" name="name" id="name" />
+            <button id="button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
